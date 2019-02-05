@@ -39,7 +39,7 @@ public class EnricherAuctionComponent {
         }
         email = name+ "." + surname + "@mulesoft.com";
         bid = bid.concat(";BIDDER_NAME=" + name + ";BIDDER_SURNAME=" + surname + ";BIDDER_EMAIL=" + email);
-        System.err.println("Thread Name"+ Thread.currentThread().getName() + "the bidder is ---->>>"+bid);
+        System.err.println("Thread Name is"+ Thread.currentThread().getName() + "the bidder is ---->>>"+bid);
         return bid;
         
     }
